@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="#03A9F4">
+
+    <TextView
+        android:id="@+id/txtCorrectAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#000"
+        android:padding="30dp"
+        android:text="Correct Answer"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/txtRightAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="#000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:text="This is Right Answer" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txtQuestionContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Random Text"
+            android:textColor="#000"
+            android:background="#FCE4EC"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="15dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/etUserInput"
+            android:textColor="#000"
+            android:background="#FFF3E0"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Enter Your Text" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="50dp">
+
+
+        <Button
+            android:id="@+id/btShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:background="#EA0A0A"
+            android:text="Show" />
+
+        <Button
+            android:id="@+id/btCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Check"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:background="#9C0202"/>
+
+        <Button
+            android:id="@+id/btNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:background="#EA0A0A"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="50dp">
+    <TextView
+        android:id="@+id/yourscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score:"
+        android:layout_weight="1"
+        android:textColor="#000"
+        android:background="#FCE4EC"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0"
+        android:textColor="#000"
+        android:background="#FCE4EC"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>
