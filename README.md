@@ -22,7 +22,7 @@ GUESS THE WORD APPLICAION
 
 ## Screenshots
 
-![App Screenshot](https://github.com/karthickkumarsm/Guess-The-Word-App/blob/main/img.jpg?raw=true)
-![App Screenshot](https://github.com/karthickkumarsm/Guess-The-Word-App/blob/main/img1.jpg?raw=true)
-![App Screenshot](https://github.com/karthickkumarsm/Guess-The-Word-App/blob/main/img2.jpg?raw=true)
+![App Screenshot](https://github.com/karthickkumarsm/Guess-The-Word-App/blob/main/img.jpg=250px?raw=true)
+![App Screenshot](https://github.com/karthickkumarsm/Guess-The-Word-App/blob/main/img1.jpg?=250pxraw=true)
+![App Screenshot](https://github.com/karthickkumarsm/Guess-The-Word-App/blob/main/img2.jpg?=250pxraw=true)
 
