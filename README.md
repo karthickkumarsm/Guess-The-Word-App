@@ -22,7 +22,7 @@ GUESS THE WORD APPLICAION
 
 ## Screenshots
 
-![App Screenshot](/relative/path/to/img.jpg?raw=true "Optional Title")
-![App Screenshot](/relative/path/to/img1.jpg?raw=true "Optional Title")
-![App Screenshot](/relative/path/to/img2.jpg?raw=true "Optional Title")
+![App Screenshot](/repository/img.jpg?raw=true "Screenshot1")
+![App Screenshot](/repository/img1.jpg?raw=true "Screenshot2")
+![App Screenshot](/repository/img2.jpg?raw=true "Screenshot3")
 
